@@ -1,0 +1,276 @@
+html {
+    width: 100%;
+}
+
+.body {
+    background-color: black;
+    background-size: cover;
+}
+
+.body-main {
+    background-color: black;
+    
+}
+
+.body-drinks {
+    background-color: black;
+}
+
+.body-dessert {
+    background-color: coral;
+}
+
+
+
+#main-name {
+    font-size: 50px;
+    background-color: #DCDCDC;
+    color: black;
+    text-indent: 100px;
+    text-align: center;
+    padding-right: 180px;
+}
+
+/*============ STARTER PAGE ===========*/
+#main-starter {
+    margin-top: 30px;
+    color: ghostwhite;
+    padding: 50px;
+}
+
+/*===== first div ====*/
+.first-meal {
+    width: 33.33%;
+    float: right;
+    margin-left: 12px;
+    text-align: center;
+    
+}
+
+.first-meal h3{
+    font-family: sans-serif;
+   
+}
+
+.first-meal p {
+    font-family: monospace;
+}
+
+.first-meal img {
+    border-radius: 50%;
+    
+}
+
+/*===== Second div ====*/
+
+.second-meal {
+    width: 33.33%;
+   
+    float: right;
+    text-align: center;
+}
+
+.second-meal h3{
+    font-family: sans-serif;
+    
+}
+
+.second-meal p {
+    font-family: monospace;
+    
+}
+
+
+
+.second-meal img {
+    border-radius: 50%;
+    
+}
+
+
+/*===== Third div ====*/
+
+.third-meal {
+    width: 33.33%;
+    text-align: center;
+    
+}
+
+
+.third-meal h3{
+    font-family: sans-serif;
+   
+}
+
+.third-meal p{
+    font-family: monospace;
+  
+}
+
+
+
+.third-meal img {
+    border-radius: 50%;
+    
+}
+
+.text {
+    font-family: cursive;
+    padding-top: 10px;
+    text-align: center;
+    color: red;
+}
+
+.text img {
+    padding-bottom: 12px;
+    text-align: center;
+    
+}
+
+.main-name-of-store {
+    text-align: center;
+    color: red;
+}
+
+/*=========== HEADER ============*/
+
+.header {
+    background-color: #2196f3;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+
+
+i {
+    float: left;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*========== FEEDBACK PAGE =========*/
+ #main {
+     background-color: chocolate;
+     text-align: center;
+}
+            
+#header {
+    text-align: center;
+                
+}
+            
+#info-box-full p{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.feedback{
+    background-color: azure;
+}
+
+
+/*===== Responsive ====*/
+
+/* Responsive adjustments for screens up to 768px wide (tablets and phones) */
+@media (max-width: 768px) {
+    .first-meal, .second-meal, .third-meal {
+        width: 100%; /* Stack meals vertically */
+        float: none; /* Remove float for stacking */
+        margin: 0; /* Remove margin */
+    }
+
+    #main-name {
+        text-indent: 0; /* Remove text indent */
+        padding-right: 0; /* Remove padding */
+    }
+
+    .header {
+        height: auto; /* Adjust header height */
+        padding: 10px; /* Add padding to prevent content from touching edges */
+    }
+
+    .header i {
+        float: none; /* Remove float */
+        display: block; /* Stack items vertically */
+        margin: 0 auto; /* Center icon horizontally */
+    }
+
+    /* Adjust font sizes for smaller screens */
+    #info-box-full p {
+        font-size: 30px; /* Adjust font size */
+    }
+
+    .text {
+        font-size: 18px; /* Adjust font size */
+        padding-top: 5px; /* Adjust padding */
+    }
+
+    .main-name-of-store {
+        font-size: 24px; /* Adjust font size */
+    }
+}
+
+/* Responsive adjustments for screens up to 480px wide (phones) */
+@media (max-width: 480px) {
+    #main-name {
+        font-size: 30px; /* Adjust font size */
+        padding-right: 10px; /* Adjust padding */
+    }
+
+    .header {
+        padding: 5px; /* Adjust padding */
+    }
+
+    .text {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .main-name-of-store {
+        font-size: 20px; /* Adjust font size */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

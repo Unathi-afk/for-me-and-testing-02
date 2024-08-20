@@ -1,0 +1,255 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('images/background-01-port.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff9f9;
+}
+
+/*========== HOME PAGE ==========*/
+
+#main-name {
+    font-size: 50px;
+    background-color: #DCDCDC;
+    color: white;
+    text-indent: 100px;
+}
+
+#main {
+    margin-top: 40px;
+    height: 70vh;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a h2{
+    background-color: aliceblue;
+}
+
+.main-menu {
+    font-size: 60px;
+    color: goldenrod
+}
+
+.main-starter-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-starter-with-text p {
+    font-family: serif; 
+    font-size: 15px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-main-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-main-with-text p {
+    font-family: serif;
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-drinks-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-drinks-with-text p {
+    font-family: serif;
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-dessert-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-dessert-with-text p {
+    font-family: serif; 
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+hr {
+    height: 2px;
+    background-color: red;
+    border: none;
+    width: 100px;
+    margin-top: 20px
+}
+
+.text {
+    font-family: cursive;
+    padding-top: 10px;
+    
+}
+
+.text img {
+    padding-bottom: 12px;
+    
+}
+
+/*====== Responsive =======*/
+
+/* Responsive adjustments for screens up to 768px wide (tablets and phones) */
+@media (max-width: 768px) {
+    #main-name {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        text-indent: 0; /* Remove text indent to fit better */
+    }
+
+    #main {
+        margin-left: 10px; /* Reduce side margins */
+        margin-right: 10px; /* Reduce side margins */
+        margin-top: 20px; /* Adjust top margin */
+        height: auto; /* Let height adjust based on content */
+    }
+
+    .main-menu {
+        font-size: 40px; /* Reduce font size for menu items */
+    }
+
+    .main-starter-with-text p,
+    .main-main-with-text p,
+    .main-drinks-with-text p,
+    .main-dessert-with-text p {
+        font-size: 14px; /* Adjust font size for readability */
+        margin-top: 0; /* Reset margin-top to fit better */
+    }
+
+    .text {
+        font-size: 16px; /* Adjust font size for better readability */
+        padding-top: 5px; /* Adjust padding for smaller screens */
+    }
+
+    hr {
+        width: 50px; /* Adjust hr width for better fit */
+        margin-top: 10px; /* Adjust margin-top */
+    }
+}
+
+/* Responsive adjustments for screens up to 480px wide (phones) */
+@media (max-width: 480px) {
+    #main-name {
+        font-size: 20px; /* Further reduce font size */
+        text-indent: 0; /* Ensure text-indent is removed */
+    }
+
+    #main {
+        margin-left: 5px; /* Further reduce side margins */
+        margin-right: 5px; /* Further reduce side margins */
+        margin-top: 10px; /* Adjust top margin */
+        height: auto; /* Maintain auto height */
+    }
+
+    .main-menu {
+        font-size: 30px; /* Further reduce font size */
+    }
+
+    .main-starter-with-text p,
+    .main-main-with-text p,
+    .main-drinks-with-text p,
+    .main-dessert-with-text p {
+        font-size: 12px; /* Further adjust font size */
+        margin-top: 0; /* Ensure margin-top is reset */
+    }
+
+    .text {
+        font-size: 14px; /* Further adjust font size */
+        padding-top: 2px; /* Reduce padding */
+    }
+
+    hr {
+        width: 30px; /* Further adjust hr width */
+        margin-top: 5px; /* Reduce margin-top */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======
+
+
+@media only screen and (min-width: 500px) {
+    #main {
+        width: 80%;
+        margin: 140px auto;
+        font-size: 40px
+    }
+    
+    #main-name {
+        font-size: 70px;
+    }
+    
+    .main-dessert-with-text p{
+        font-size: 25px;
+    }
+    
+    .main-starter-with-text p {
+        font-size: 25px;
+    }
+    
+    .main-drinks-with-text p{
+        font-size: 30px;
+    }
+    
+    .main-main-with-text p {
+        font-size: 30px;
+    }
+    
+    body{
+        height: 80vh;
+        
+    }
+    
+     
